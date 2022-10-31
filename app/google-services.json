@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "427985293930",
+    "project_id": "investpuzzle-54eef",
+    "storage_bucket": "investpuzzle-54eef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427985293930:android:d6eef8fb3fdffadc9a3013",
+        "android_client_info": {
+          "package_name": "com.sts.investpuzzle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427985293930-upe2gudjvijfj15e7purfnhnqf35f8s7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sts.investpuzzle",
+            "certificate_hash": "800f6c61c693dcc80ee50e1e038d952619b0177f"
+          }
+        },
+        {
+          "client_id": "427985293930-0s1eu8a8tnq8c1boh2rldncmv292noju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgA9SasQi4mLEhfMfodySqDyKTAyXFE7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427985293930-0s1eu8a8tnq8c1boh2rldncmv292noju.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menuStocks"
+        android:icon="@drawable/ic_home"
+        android:title="Stocks"/>
+
+    <item android:id="@+id/menuNews"
+        android:icon="@drawable/ic_news"
+        android:title="News"/>
+
+    <item android:id="@+id/menuRanking"
+        android:icon="@drawable/ic_ranking"
+        android:title="Ranking"/>
+
+    <item android:id="@+id/menuDailyMovers"
+        android:icon="@drawable/ic_mover"
+        android:title="Movers"/>
+
+    <item android:id="@+id/menuProfile"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile"/>
+
+</menu>

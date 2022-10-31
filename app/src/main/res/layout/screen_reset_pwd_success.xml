@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/vertical_baseline"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AppName-Logo"
+        android:textSize="@dimen/app_name_font_size"
+        android:textColor="@color/color_app_name"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password_changed"
+        style="@style/big_title_style" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="some description"/>
+
+    <TextView
+        android:id="@+id/txvWelcomeBack"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:background="@drawable/bg_blue_rect"
+        android:text="@string/welcome_back"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_font_size"
+        android:layout_marginVertical="50dp"/>
+
+</LinearLayout>

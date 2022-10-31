@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/vertical_baseline"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AppName-Logo"
+        android:textSize="@dimen/app_name_font_size"
+        android:textColor="@color/color_app_name"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"/>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/big_title_style"
+        android:text="@string/hey_welcome"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="here is some description"/>
+
+    <TextView
+        android:id="@+id/txvGetStarted"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:background="@drawable/bg_blue_rect"
+        android:text="@string/get_started"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_font_size"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>

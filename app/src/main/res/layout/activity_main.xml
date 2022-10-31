@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".features.main.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/frmContainer"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"/>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menu="@menu/bottom_navigation_menu"
+            app:labelVisibilityMode="labeled"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mProgressView"
+        layout="@layout/progress_view"
+        android:visibility="gone"/>
+
+    <include
+        android:id="@+id/mErrorView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/error_message_layout"
+        android:visibility="gone"/>
+
+ </FrameLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvDataList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/lytOtherContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/vertical_baseline"
+        android:layout_marginVertical="10dp"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/edtOther"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_grey_border"
+            android:paddingHorizontal="@dimen/edittext_horizontal_padding"
+            android:paddingVertical="@dimen/edittext_vertical_padding"
+            android:textSize="@dimen/edittext_font_size"/>
+
+        <TextView
+            android:id="@+id/txvOkay"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:background="@drawable/bg_blue_rect"
+            android:text="@string/okay"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/button_font_size"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

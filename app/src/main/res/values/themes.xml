@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.InvestPuzzle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorSecondaryVariant">@color/blue</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="big_title_style">
+        <item name="android:textSize">@dimen/big_title_font_size</item>
+        <item name="android:textColor">@color/color_big_title</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="edittext_label_style">
+        <item name="android:textColor">@color/color_edittext_label</item>
+        <item name="android:textSize">@dimen/edittext_label_font_size</item>
+    </style>
+</resources>

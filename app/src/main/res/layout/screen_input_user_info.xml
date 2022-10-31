@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/vertical_baseline">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        android:background="@color/transparent"
+        android:paddingVertical="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AppName-Logo"
+        android:textSize="@dimen/app_name_font_size"
+        android:textColor="@color/color_app_name"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/personal_information"
+        style="@style/big_title_style"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gender"
+        style="@style/edittext_label_style"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:id="@+id/lytGender"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_grey_border"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="@dimen/edittext_horizontal_padding"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/txvGender"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/edittext_font_size"/>
+
+        <ImageView
+            android:id="@+id/imvSelectGender"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:src="@drawable/ic_arrow_down"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/year_of_birth"
+        style="@style/edittext_label_style"
+        android:layout_marginTop="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_grey_border"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="@dimen/edittext_horizontal_padding"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/txvYearOfBirth"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/edittext_font_size"/>
+
+        <ImageView
+            android:id="@+id/imvSelectYearOfBirth"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:src="@drawable/ic_arrow_down"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/country"
+        style="@style/edittext_label_style"
+        android:layout_marginTop="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_grey_border"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="@dimen/edittext_horizontal_padding"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/imvFlag"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/txvCountryName"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/edittext_font_size"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:id="@+id/imvSelectCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:src="@drawable/ic_arrow_down"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/education"
+        style="@style/edittext_label_style"
+        android:layout_marginTop="15dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_grey_border"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="@dimen/edittext_horizontal_padding"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/txvEducation"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/edittext_font_size"/>
+
+        <ImageView
+            android:id="@+id/imvSelectEducation"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:src="@drawable/ic_arrow_down"/>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/chbTerms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/accept_terms_and_condition"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/txvSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:background="@drawable/bg_blue_rect"
+        android:text="@string/sign_in"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_font_size"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>
